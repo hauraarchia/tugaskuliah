@@ -7,13 +7,12 @@ public class ContohTipeData13 {
         long saldo = 150000;
         int angkaDesimal = 0x10;
 
-        System.out.println("Golongan Darah\t:" + golonganDarah);
+      /* */  System.out.println("Golongan Darah\t:" + golonganDarah);
         System.out.println("Jumlah Penduduk\t:" + jumlahPenduduk);
         System.out.println("Suhu\t\t:" + suhu);
-        System.out.println("Berat\t\t:" + berat);
-        System.out.println("Saldo\t\t:" +saldo); //\t berfungsi seperti tab di keyboard
+        System.out.println("Berat\t\t:" + (float)berat);
+        System.out.println("Saldo\t\t:" +saldo); //  \t berfungsi seperti tab di keyboard
         System.out.println("Angka Desimal\t:" + angkaDesimal);
-
 
     }
 }
