@@ -5,6 +5,7 @@ public class PemilihanSwitch13 {
         Scanner sc = new Scanner(System.in);
 
         double angka1, angka2, hasil = 0;
+        //String hasil2;
         char operator;
 
         System.out.println("Masukkan angka 1 : ");
@@ -16,20 +17,26 @@ public class PemilihanSwitch13 {
 
         switch(operator) {
             case '+':
-            hasil = angka1 + angka2;
+           // hasil = angka1 + angka2;
+            System.out.println(hasil = angka1 + angka2);
             break;
             case '-':
-            hasil = angka1 - angka2;
+            //hasil = angka1 - angka2;
+            System.out.println(hasil = angka1 - angka2); 
             break;
             case '*':
-            hasil = angka1 * angka2;
+            // hasil = angka1 * angka2;
+            System.out.println(hasil = angka1 * angka2);
             break;
             case '/' :
-            hasil = angka1 / angka2;
+            //hasil = angka1 / angka2;
+            System.out.println(hasil = angka1 / angka2 );
             break; 
-        }
-        System.out.println("hasilnya: ");
+            default:
+            System.out.println("maaf operator tidak sesuai");
+            break;
+        } 
             // System.out.println(angka1 + operator + angka2 + " = " + hasil);
-            System.out.println(angka1 + " " + operator + " " + angka2 + " = " + hasil);
+            //System.out.println(angka1 + " " + operator + " " + angka2 + " = " + hasil);
     }
 }
