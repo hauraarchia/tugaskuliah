@@ -23,8 +23,8 @@ public class DoWhileCuti13 {
                     continue;
                 }
                 
-            }else{
-                System.out.println("Sisa jatah cuti anda: " +jatahCuti);
+            }else if(konfirmasi.equalsIgnoreCase("t")) {
+                break;
             }
 
         } while (jatahCuti > 0);
