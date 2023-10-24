@@ -9,13 +9,15 @@ public class ForKelipatan13 {
         int bilangan, total = 0, counter = 0;
         System.out.println("Masukkan bilangan 1-9: ");
         bilangan = sc.nextInt();
-        for(int i = 0; i < 50; i++){
+        for(int i = 0; i < 50; ++i){
             if (i % bilangan == 0) {
                 total +=i;
-                counter++;
-                
+                ++counter;
             }
+        } 
+        double average = (double) total / counter;
+        System.out.println("rata-rata "  +average);
+        System.out.printf("pada rentang 1-50 terdapat %d bilangan kelipatan %d dengan total %d", counter, bilangan, total);            
         }
-        System.out.printf("pada rentang 1-50 terdapat %d bilangan kelipatan %d dengan total %d", counter, bilangan, total);
+        
     }
-}
