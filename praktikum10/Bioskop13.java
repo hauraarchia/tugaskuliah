@@ -16,8 +16,9 @@ public class Bioskop13 {
         penonton[3][0] = "Gisel";
         penonton[3][1] = "Hana";
 
-        for (int i = 0; i < penonton.length; i++) {
-            System.out.println(Arrays.toString(penonton[i]));
+        System.out.println("Penonton pada baris ke-3: ");
+        for (int i = 0; i < penonton[2].length; i++) {
+            System.out.println(penonton[2][i]);
             
         }
         // System.out.printf("%s \t %s \n", penonton[0][0], penonton[0][1]);
