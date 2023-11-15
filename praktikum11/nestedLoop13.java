@@ -16,6 +16,8 @@ public class nestedLoop13 {
                 suhu[i][j] = s.nextInt();
             }
         }
+
+        //menampilkan inputan
         for (int i = 0; i < suhu.length; i++) {
             System.out.print(("KOTA KE-") + (i + 1) + ": ");
             double sum = 0.0;
