@@ -6,10 +6,10 @@ public class triangle13 {
         System.out.print("Masukkan jumlah *: ");
         int n = s.nextInt();
         
-        int i = 1;
+        int i = 0;
         while (i <= n) {
             int j = 0;
-
+            
             while (j < i) {
                 System.out.print("*");
                 j++;
